@@ -1,0 +1,64 @@
+@media only screen and (min-width: 34rem) {
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    height: auto;
+  }
+.post-content {
+    border-left: #d0d0d0 solid 5px;
+}
+
+ a {
+  text-decoration: none;
+  color: #333;
+  
+ }
+
+ h2 a:hover {
+  color: #00ddff
+}
+
+a:focus {
+  color: #DEB887;
+}
+  nav a {
+      font-size: 1.6em;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: 'Lora';
+  color: #666;
+  padding: 10px;
+  }
+
+  nav ul {
+    padding-left: 950px;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: flex;
+    list-style-type: none;
+    
+  }
+  nav {
+    border-top: #d0d0d0 solid 5px;
+    border-bottom:#d0d0d0 solid 5px;
+  }
+  nav a:hover {      
+    color: #00ddff; 
+    } 
+ article {
+    display: grid;
+    grid-template-columns: 150px 600px;
+ }
+
+ .post-content {
+    padding-left: 30px;
+ }
+ p, h2{
+    text-align: left;
+ }
+}

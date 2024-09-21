@@ -15,8 +15,61 @@ html {
 
 body{
      font-family: Helvetica, Arial, sans-serif ;
-     color: #333
+     color: #333 ;
 }
-h1 {
+h1, h2 {
     font-family: 'Lora', sans-serif;
+    text-align: center ;
+    color: #666;
+    
   }
+
+  h1 {
+    font-size: 60px;
+  }
+  .navBar {
+    border-top: #d0d0d0 solid 5px;
+    border-bottom:#d0d0d0 solid 5px;
+    text-align: center;
+  }
+  main {
+    justify-items: center;
+   
+    text-align: center;
+    display: grid;
+    grid-template-columns:  1fr  ;
+    margin: auto;
+    height: auto;
+    
+  }
+ a {
+  text-decoration: none;
+  color: #333;
+ }
+
+ h2 a:hover {
+  color: #00ddff
+}
+
+a:focus {
+  color: #DEB887;
+}
+  nav a {
+      font-size: 1.6em;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: 'Lora';
+  color: #666;
+  }
+  nav {
+    text-align: center;
+  }
+  ul{
+    display: block;
+    flex-direction: block;
+    list-style-type: none;
+  }
+  
+  nav a:hover {      
+    color: #00ddff; 
+    } 
