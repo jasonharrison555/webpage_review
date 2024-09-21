@@ -27,7 +27,7 @@ h1, h2 {
   h1 {
     font-size: 60px;
   }
-  .navBar {
+  nav {
     border-top: #d0d0d0 solid 5px;
     border-bottom:#d0d0d0 solid 5px;
     text-align: center;
