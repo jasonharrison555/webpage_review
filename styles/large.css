@@ -39,7 +39,6 @@ a:focus {
 
   ul{
     display: flex;
-    flex-direction: flex;
     list-style-type: none;
     
   }
