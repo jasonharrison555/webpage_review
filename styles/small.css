@@ -65,8 +65,6 @@ a:focus {
     text-align: center;
   }
   ul{
-    display: block;
-    flex-direction: block;
     list-style-type: none;
   }
   
